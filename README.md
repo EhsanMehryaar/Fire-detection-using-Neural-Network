@@ -1,5 +1,9 @@
 Fire Detection using Neural Networks
 ==============================
+In this project, an easy to use framework for image classification using 3 different NN based models is developed. This framework has been seccusfully applied to scraped images from google for fire detection with more than 90% accuracy. This framework can be usefull for reproducability of the models and are easily modifiable. 
+
+![test](https://github.com/EhsanMehryaar/Fire-detection-using-Neural-Network/blob/main/figures/output.png?raw=true)
+
 
 Project Organization
 ------------
@@ -27,7 +31,7 @@ Project Organization
 Project Documentation
 ------------
 
-In this project, an easy to use framework for image classification using 3 different NN based models is developed. This framework has been seccusfully applied to scraped images from google. This framework can be usefull for reproducability of the models and are easily modifiable. These models are defined and can be modified in models/models.py. New models can be added. Please note that you have to add the model name to model_generator method in src.utils.model_classifier object. 
+These models are defined and can be modified in models/models.py. New models can be added. Please note that you have to add the model name to model_generator method in src.utils.model_classifier object. 
 
 Thw whole process of preprocessing the images, data splitting, training and evaluation is done through the image classifier object. Structure of this object is explained below
 Examples of the models are given in 3 different Jupyter notebooks in 
