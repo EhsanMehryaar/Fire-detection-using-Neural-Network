@@ -1,0 +1,17 @@
+# local package
+pandas
+numpy
+seaborn
+matplotlib
+os
+PIL
+cv2
+tensorflow
+os
+sklearn
+keras
+uuid
+time
+random
+urllib
+selenium
